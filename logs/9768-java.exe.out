@@ -1,0 +1,45 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 637milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 637"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 57637"}
+{"logLevel":"info","message":"Listening on port:57637"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.AssertBytext' and 'Test.StepImplementation.AssertBytext'"}
+{"logLevel":"debug","message":"Found {} title kontrol in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.Scroll' and 'Test.StepImplementation.Scroll'"}
+{"logLevel":"debug","message":"Found {} Scroll yapma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.ClickByid' and 'Test.StepImplementation.ClickByid'"}
+{"logLevel":"debug","message":"Found {} id li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.waitForSecond' and 'Test.StepImplementation.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.ClickByxpath' and 'Test.StepImplementation.ClickByxpath'"}
+{"logLevel":"debug","message":"Found {} xpath li elemana tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.HoverByid' and 'Test.StepImplementation.HoverByid'"}
+{"logLevel":"debug","message":"Found {} id li element üzerinde dur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.ClickBycss' and 'Test.StepImplementation.ClickBycss'"}
+{"logLevel":"debug","message":"Found {} css li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} xpath li elemana tıkla : public void ClickByxpath(String xpath)"}
+{"logLevel":"debug","message":"\t{} Scroll yapma : public void Scroll(String css)"}
+{"logLevel":"debug","message":"\t{} id li elemente tıkla : public void ClickByid(String id)"}
+{"logLevel":"debug","message":"\t{} css li elemente tıkla : public void ClickBycss(String css)"}
+{"logLevel":"debug","message":"\t{} title kontrol : public void AssertBytext(String title)"}
+{"logLevel":"debug","message":"\t{} id li element üzerinde dur : public void HoverByid(String id)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForSecond(ınt x) throws InterruptedException"}
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 39891
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Tem 18, 2021 11:30:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} id li element üzerinde dur' using 'class Test.StepImplementation.HoverByid"}
+{"logLevel":"debug","message":"Executing '{} css li elemente tıkla' using 'class Test.StepImplementation.ClickBycss"}
+{"logLevel":"debug","message":"Executing '{} Scroll yapma' using 'class Test.StepImplementation.Scroll"}
+{"logLevel":"debug","message":"Executing '{} xpath li elemana tıkla' using 'class Test.StepImplementation.ClickByxpath"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

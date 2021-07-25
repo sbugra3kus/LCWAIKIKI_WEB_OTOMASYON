@@ -1,0 +1,28 @@
+
+
+#Ana Sayfa Kontrol
+*Sayfa kontrol
+*"1" saniye kadar bekle
+*COOKIE KAPATMA
+#MENU AÇMA
+*Hoverla
+*"2" saniye kadar bekle
+*Gömlek listeleme
+#Erkek Gömlek Seçme ve Kontrol
+*"1" saniye kadar bekle
+*Erkek Gömlek Sayfası
+*Sıralama listesine tıklama
+*Sıralama
+*"1" saniye kadar bekle
+*Listeleme kontrol
+#Gömlekleri Seçme
+*Gömlekleri seçtirme
+#Favoriler Kısmına Geçme
+*FAVORİ
+*ASSERT COUNT
+*Tümünü seç
+*ASSERT CHOOSEN
+*"1" saniye kadar bekle
+*Kaldır
+*"2" saniye kadar bekle
+*ASSERT FAV

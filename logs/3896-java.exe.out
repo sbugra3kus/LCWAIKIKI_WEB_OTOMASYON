@@ -1,0 +1,43 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 643milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 643"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56480"}
+{"logLevel":"info","message":"Listening on port:56480"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.AssertBytext' and 'Test.StepImplementation.AssertBytext'"}
+{"logLevel":"debug","message":"Found Tıtle kontrol in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.Scroll' and 'Test.StepImplementation.Scroll'"}
+{"logLevel":"debug","message":"Found {} Scroll yapma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.ClickByid' and 'Test.StepImplementation.ClickByid'"}
+{"logLevel":"debug","message":"Found {} id li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.waitForSecond' and 'Test.StepImplementation.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.ClickByxpath' and 'Test.StepImplementation.ClickByxpath'"}
+{"logLevel":"debug","message":"Found {} xpath li elemana tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.HoverByid' and 'Test.StepImplementation.HoverByid'"}
+{"logLevel":"debug","message":"Found Hoverla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.ClickBycss' and 'Test.StepImplementation.ClickBycss'"}
+{"logLevel":"debug","message":"Found {} css li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} xpath li elemana tıkla : public void ClickByxpath(String xpath)"}
+{"logLevel":"debug","message":"\t{} Scroll yapma : public void Scroll(String css)"}
+{"logLevel":"debug","message":"\t{} id li elemente tıkla : public void ClickByid(String id)"}
+{"logLevel":"debug","message":"\t{} css li elemente tıkla : public void ClickBycss(String css)"}
+{"logLevel":"debug","message":"\tHoverla : public void HoverByid()"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForSecond(ınt x) throws InterruptedException"}
+{"logLevel":"debug","message":"\tTıtle kontrol : public void AssertBytext()"}
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 33532
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Tem 22, 2021 3:04:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Tıtle kontrol' using 'class Test.StepImplementation.AssertBytext"}
+{"logLevel":"debug","message":"Executing '{} xpath li elemana tıkla' using 'class Test.StepImplementation.ClickByxpath"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
